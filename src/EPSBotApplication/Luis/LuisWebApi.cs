@@ -21,7 +21,7 @@ namespace EpsBotApplication.Api
                     return parsedJsonResponse.entities[0].type;
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 //  TO-DO Log exception
             }
